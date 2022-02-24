@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         selected_page = findViewById(R.id.selPage);
         bottomNavigation = findViewById(R.id.bottomNav);
-
+// add navigation item resources
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_Home,R.drawable.home_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_Message,R.drawable.message_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(ID_Notification,R.drawable.notify_24));
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override
             public void onClickItem(MeowBottomNavigation.Model item) {
-                // Toast message : when clicked.
+   // Toast message : when clicked.
                 Toast.makeText(getApplicationContext(),"clicked item : "+item.getId(),Toast.LENGTH_SHORT).show();
             }
         });
@@ -59,14 +59,14 @@ public class MainActivity extends AppCompatActivity {
 
                     default: name="";
                 }
-                //set TextView with source name.
+  //set TextView with source name.
                 selected_page.setText(name+" page is selected");
             }
         });
 
-        // will show 4 to top of ID_Notification Icon
+  // will show 4 to top of ID_Notification Icon
         bottomNavigation.setCount(ID_Notification,"4");
-        // set default page when start
+  // set default page when start
         bottomNavigation.show(ID_Account,true);
 
     }
