@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
                 selected_page.setText(name+" page is selected");
             }
         });
-
+        
+   // set default page when start
+        bottomNavigation.show(ID_Account,true);
   // will show 4 to top of ID_Notification Icon
         bottomNavigation.setCount(ID_Notification,"4");
-  // set default page when start
-        bottomNavigation.show(ID_Account,true);
 
     }
 }
