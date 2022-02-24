@@ -11,19 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_gravity="center"
-        android:layout_marginLeft="35dp">
+        android:layout_gravity="center">
 
         <TextView
             android:id="@+id/selPage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:text="Hello World!"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
             android:textColor="@color/black"
             android:layout_marginTop="250dp"
             android:textSize="20sp"
