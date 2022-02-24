@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"clicked item : "+item.getId(),Toast.LENGTH_SHORT).show();
             }
         });
-
+// can be inserted under switch cases some fragments for every menu item to change resource layout .
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
             @Override
             public void onShowItem(MeowBottomNavigation.Model item) {
