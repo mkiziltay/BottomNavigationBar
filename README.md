@@ -25,6 +25,6 @@ Bottom Navigation Bar with listener methods
 * ***implementation 'com.google.android.material:material:1.5.0'***
 
 ## Screenshot
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Markdown-mark.svg" alt = "Adding Reminders" width=200 height=350>
+<img src="https://raw.githubusercontent.com/mkiziltay/BottomNavigationBar/main/Screenshot.JPG" alt = "Adding Reminders" width=380 height=800>
 
 
