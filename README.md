@@ -1,8 +1,6 @@
 # Bottom Navigation Bar
 Bottom Navigation Bar with listener methods
 
-# Bottom Navigation Bar
-
 * min sdk version : API 26
 * We used MeowBottomNavigation.class which extending Framelayout in project. (external resource library)
 
