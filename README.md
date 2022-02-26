@@ -1,5 +1,5 @@
 # Bottom Navigation Bar
-Bottom Navigation Bar with listener methods. Fragmet pages not attached but can be attach under listener methods.
+Bottom Navigation Bar with listener methods. Fragmet pages not attached but can be attach inside of listener methods.
 
 * min sdk version : API 26
 * target sdk version : API 31
