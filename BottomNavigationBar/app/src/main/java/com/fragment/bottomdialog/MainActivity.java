@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
             @Override
             public void onClickItem(MeowBottomNavigation.Model item) {
-   // Toast message : when clicked.
+// Toast message : when clicked.
                 Toast.makeText(getApplicationContext(),"clicked item : "+item.getId(),Toast.LENGTH_SHORT).show();
             }
         });
@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         
    // set default page when start
         bottomNavigation.show(ID_Account,true);
+
   // will show 4 to top of ID_Notification Icon
         bottomNavigation.setCount(ID_Notification,"4");
 
